@@ -10,7 +10,7 @@ I did 2 solutions:
 1.) First solution uses python system libraries only. Running time 10-15 seconds. Memory consumption ~ 200 mb.
 To run:
 
-```solution.py --input_filename incidents.csv --output_filename output_python.txt --dt 0.3```
+```python solution.py --input_filename incidents.csv --output_filename output_python.txt --dt 0.3```
 
 2.) Other solution uses pandas library to groupby a dataframe by features. Running time ~40 seconds. Memory consumption ~200 mb.
 To run:
